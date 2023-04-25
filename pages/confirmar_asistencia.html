@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOS CASAMOS M&M</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.min.css"> <!--bs local-->
+    <link rel="stylesheet" href="../css/estilos.css"> <!--estilos locales-->
+    <script src="https://kit.fontawesome.com/fc6b3f88c7.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header class="container-fluid bg-light fixed-top"> <!--el header es una etiqueta semántica-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../assets/img/logo.png" alt="" width="60" height="48" class="d-inline-block align-text-top ">
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link link" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="../pages/momentos.html">MOMENTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="../pages/confirmar_asistencia.html">CONFIRMAR ASISTENCIA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="../pages/informacion.html">INFORMACION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="../pages/juego.html">JUEGO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="https://www.pinterest.es/lrmeli/mesa-de-regalos/">LISTA DE
+                            REGALOS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <img class="img-fluid tira" src="../assets/img/largo.arriba.jpg" alt="tira">
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <p class="titulo-principal d-flex justify-content-center">¿Vendrás?</p>
+
+            <div class="row mt-5">
+                <div class="col-sm-12 col-md-4 mt-auto mb-auto">
+                    <p class="titulo-secundario">Déjanos saber</p>
+                    <p>Si tienes alguna pregunta o duda por favor
+                        póngase en contacto con nosotros.<br>
+                        Y si tienes algún tipo de necesidad especial en cuanto al menú.</p>
+                </div>
+                <div class="col-sm-8 col-md-8 d-flex justify-content-center mb-5">
+                    <video onloadedmetadata="this.muted=true" autoplay loop class="col-10 ">
+                        <source src="../video.mp4.mp4">
+                    </video>
+                </div>
+
+            </div>
+
+            <p class="subtitulo-secundario d-flex justify-content-center">CONTESTA, POR FAVOR</p>
+
+            <form class="row mt-5 mb-5">
+                <div class="col-sm-12 col-md-6">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tu nombre">
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input " type="radio" name="flexRadioDefault" id="flexRadioDefault1"
+                            checked>
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Acepto con gusto la invitación
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Declino con pesar la invitación
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                        <label class="form-check-label " for="flexRadioDefault3">
+                            Acepto la invitación y vendré acompañado
+                        </label>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <label for="exampleFormControlTextarea1" class="form-label">MENSAJE</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+                <div class="col-12 text-center mt-5">
+                    <button type="submit" class="boton">Enviar</button>
+                </div>
+                
+            </form>
+
+
+
+
+        </div>
+    </main>
+
+
+
+
+    <footer class="container-fluid bg-black">
+        <div class="row d-flex justify-content-center align-items-center ">
+            <div class="col d-flex justify-content-center align-items-center mt-3">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://es-la.facebook.com/" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.pinterest.es/" target="_blank">
+                    <i class="fa-brands fa-pinterest-p" ></i>
+                </a>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+            <p>Todos los derechos reservados© - Melissa Larrosa Rodriguez</p>
+        </div>
+    </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"> </script>
+
+</body>
+
+</html>

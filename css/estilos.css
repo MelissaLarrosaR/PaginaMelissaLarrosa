@@ -1,0 +1,323 @@
+/* importacion de la tipografia */
+@import url('https://fonts.googleapis.com/css2?family=Bubbler+One&family=KoHo:ital,wght@0,500;1,200&display=swap');
+
+/*saca los margenes es "buena preactica"*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* tipografia del body */
+body {
+    font-family: 'Bubbler One', sans-serif;
+    /*otro estilo de tipografia*/
+    /*font-family: 'KoHo', sans-serif;*/
+}
+
+main {
+    /*dejo espacio para el header*/
+    margin-top: 140px;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+}
+
+/* HEADER */
+header {
+    background-color: white;
+    /*fondo blanco*/
+    z-index: 100;
+    /*siempre al frente*/
+}
+
+/* Texto del link del header */
+header .link {
+    text-decoration: none;
+    /*le saca el subrayado*/
+    color: rgb(0, 0, 0);
+    /*color a la lentra*/
+    margin: 10px;
+    /*espaciado exterior*/
+    font-size: 25px;
+    /*tamaño de letra*/
+    font-weight: bold;
+    /* Aplicar negrita al texto */
+    color: #3f0000;
+    /* Cambiar el color de la letra según sea necesario */
+    text-align: center;
+    /* Centrar el texto */
+}
+
+/* tamaño de la tira del header */
+header .tira {
+    width: 100%;
+    max-height: 25px;
+}
+
+/* FOOTER */
+/* iconos de redes sociales */
+footer i {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 30px;
+    color: rgb(241, 166, 185);
+}
+
+/* texto del footer */
+footer p {
+    font-size: 20px;
+    color: rgb(241, 166, 185);
+}
+
+/* TITULOS, SUBTITULOS Y PARRAFOS */
+
+.titulo-principal {
+    font-size: 80px;
+    font-weight: bold;
+    color: #3f0000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.subtitulo-principal {
+    font-size: 60px;
+    font-weight: bold;
+    color: #3f0000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-secundario {
+    font-size: 50px;
+    color: #3f0000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.subtitulo-secundario {
+    font-size: 40px;
+    color: #3f0000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 30px;
+    color: #3f0000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* FORMULARIOS */
+
+label {
+    font-size: 25px;
+    color: #3f0000;
+}
+
+/* esto es un boton*/
+.boton {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: rgb(241, 166, 185);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(243, 217, 231);
+}
+
+.boton:hover {
+    background-color: rgb(243, 217, 231);
+    color: rgb(241, 166, 185);
+
+}
+
+/* INDEX */
+
+/* Baner de la pagina principal */
+.banner {
+    background-image: url("../assets/img/foto01.jpg");
+    /*imagen de fondo*/
+    width: 100%;
+    /*ancho 100% de la pantalla*/
+    height: 400px;
+    /*altura*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*centra el texto*/
+    background-size: cover;
+    /*adapta el fondo a la pantalla*/
+}
+
+/* efecto esmerilado */
+
+.efectovidrio {
+    background-color: #ffffff10;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    width: 70%;
+    /*ancho*/
+    height: 300px;
+    /*altura*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.efectovidrio .titulo-principal , .efectovidrio .subtitulo-principal {
+    color: white;
+}
+
+/* separador de secciones */
+
+.separador1 {
+    background-image: url("../assets/img/separador1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.separador2 {
+    background-image: url("../assets/img/separador2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.separador3 {
+    background-image: url("../assets/img/separador3.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.separador4 {
+    background-image: url("../assets/img/separador4.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.separador5 {
+    background-image: url("../assets/img/separador5.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* conteneddor de video */
+
+.container-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedorCarrusel {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.contenedorCarrusel p {
+    color: white;
+}
+
+
+/* MEDIA QUERYS */
+
+@media screen and (max-width:576px) {
+
+    /* HEADER */
+    header .link {
+        margin: 3px;
+        /*espaciado exterior*/
+        font-size: 20px;
+        /*tamaño de letra*/
+        font-weight: bold;
+        /* Aplicar negrita al texto */
+    }
+    header .tira {
+        max-height: 30px;
+    }
+
+    /* FOOTER */
+    footer i {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 30px;
+    }
+
+    footer p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    /* Titulos  y Subtitulos */
+
+    .titulo-principal {
+        font-size: 50px;
+    }
+
+    .subtitulo-principal {
+        font-size: 40px;
+    }
+
+    .titulo-secundario {
+        font-size: 35px;
+    }
+
+    .subtitulo-secundario {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    .boton {
+        font-size: 20px;
+    }
+        
+}
