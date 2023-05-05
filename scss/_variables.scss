@@ -1,0 +1,32 @@
+$fuente-principal: 'KoHo', sans-serif;
+$fuente-secundaria: 'Bubbler One', sans-serif;
+$fondo-principal:linear-gradient(to left, #c7dcc9, #d3d6b7, #e6cdac, #f8c2af, #ffb8c1, #ffbad1, #febee1, #f7c3f1, #f9cdf4, #fbd7f7, #fce0f9, #feeafc);
+$color-letra-principal: #464444;
+$tamano-letra: 30px;
+$tamano-letra-chico: 25px;
+$tamano-letra-mas-chico: 20px;
+$negrita: bold;
+$comun: normal;
+$rosa-oscuro: rgb(241, 166, 185);
+$rosa-claro: rgb(243, 217, 231);
+$largo-separador-pc: 500px;
+$largo-separador-celu: 200px;
+
+/*MAPS*/
+$Largo: (
+    separador-pc : 500px,
+    separador-celu : 200px
+);
+
+$colores: (
+    rosa-oscuro :rgb(241, 166, 185),
+    rosa-claro : rgb(243, 217, 231),
+    letra-principal: #464444,
+    fondo-principal: white
+
+);
+
+$fuentes: (
+    principal: 'KoHo' sans-serif,
+    secundaria: 'Bubbler One' sans-serif
+)

@@ -5,10 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NOS CASAMOS M&M</title>
+    <!--meta description meta keywords-->
+    <meta name="description"
+        content="¡Te invitamos a nuestra boda! Melissa y Matías se unen en matrimonio para celebrar su amor. Descubre todos los detalles de la ceremonia y la fiesta en nuestra página web. Te esperamos con los brazos abiertos para compartir juntos este momento inolvidable.">
+    <meta name="keywords" content="Boda, Casamiento, Invitación, Celebración, Matrimonio, Fiesta, Amor, Novios">
+
+    <title>Bienvenidos a la boda de Melissa y Matías | INICIO</title>
     <!--este es el título de la página en el que se va a ver en la parte superior del navegador-->
     <link rel="stylesheet" href="./css/bootstrap.min.css"> <!--bs local-->
     <link rel="stylesheet" href="./css/estilos.css"> <!--estilos propios-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- para la animacion-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/fc6b3f88c7.js" crossorigin="anonymous"></script>
 
@@ -16,13 +22,14 @@
 
 <body> <!--en el body va el contenido de la página-->
 
-    <header class="container-fluid bg-light fixed-top"> <!--el header es una etiqueta semántica-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <header class="container-fluid fixed-top"> <!--el header es una etiqueta semántica-->
+        <nav class="navbar navbar-expand-lg navbar-light ">
             <a class="navbar-brand" href="../index.html">
-                <img src="../assets/img/logo.png" alt="" width="60" height="48" class="d-inline-block align-text-top ">
+                <img src="../assets/img/logo.png" alt="" width="60" height="48"
+                    class="logo d-inline-block align-text-top ms-3">
 
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,13 +51,14 @@
                         <a class="nav-link link" href="../pages/juego.html">JUEGO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link" href="https://www.pinterest.es/lrmeli/mesa-de-regalos/">LISTA DE
+                        <a class="nav-link link" href="https://www.pinterest.es/lrmeli/mesa-de-regalos/"
+                            target="_blank">LISTA DE
                             REGALOS</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <img class="img-fluid tira" src="../assets/img/largo.arriba.jpg" alt="tira">
+        <img class="img-fluid tira" src="../assets/img/largo.arriba.png" alt="tira">
     </header>
 
     <main class="container-fluid">
@@ -59,35 +67,40 @@
         <div class="banner">
             <div class="efectovidrio">
                 <div>
-                    <h1 class="titulo-principal">Melissa & Matías</h1>
+                    <h1 class="titulo-principal floating-title" data-aos="fade-down" data-aos-duration="2000">Melissa &
+                        Matías</h1>
                     <!--el h1 es el titulo principal de la pagina, puede solo tener 1 h1 excepto que tambien tengamos un h1 dentro de un article.-->
-                    <h2 class="subtitulo-principal">Nos casamos</h2>
+                    <h2 class="subtitulo-principal floating-title" data-aos="fade-up" data-aos-duration="2000">Nos
+                        casamos</h2>
                 </div>
 
             </div>
         </div>
 
-        <h2 class="titulo-secundario mt-5 mb-5"> 15 AÑOS JUNTOS</h2> <!--hay 6 diferentes etiquetas de titulos
+        <h2 class="titulo-secundario mt-5 mb-5">¡Es hora de celebrar el amor!</h2> <!--hay 6 diferentes etiquetas de titulos
                 h1 es el principal de la página,
                 del h2 al h6 son subtítulos y los podemos usar libremente-->
 
+        <div class="centrado">
+            <lord-icon src="https://cdn.lordicon.com/lupuorrc.json" trigger="hover"
+                colors="primary:#121331,secondary:#ffffff" style="width:250px;height:250px">
+            </lord-icon>
+        </div>
+
+
+
         <!--el p es una etiqueta de párrafo-->
         <p>
-            En una ocasión especial, no hay nada mejor que recibir una hermosa carta de amor,
-            y si la pareja está lejos. <br> ¡las palabras serán tus mejores aliadas!
-        </p>
-        <p>
-            Además, no es necesario que le des todo el texto de una sola vez.
-        </p>
-        <p>
-            La ventaja de un texto largo es que puedes incluso fragmentarlo y enviárselo
-            de a poco durante todo un día, para tenerle en suspenso y esperando el siguiente trozo;
-        </p>
-        <p>
-            ¡aquí tienes la selección para escoger!
+            Después de 15 años de amor incondicional, queremos compartir este momento especial con nuestros seres
+            queridos y celebrar juntos. <br>
+            En una ceremonia que promete ser inolvidable.
         </p>
 
-        <h2 class="titulo-secundario mt-5 mb-5">NUESTRO VIDEO</h2>
+        <h2 class="titulo-secundario mt-5 mb-5">El amor en movimiento</h2>
+
+        <div class="centrado"><lord-icon src="https://cdn.lordicon.com/tdxypxgp.json" trigger="hover"
+                colors="primary:#121331,secondary:#ffffff" style="width:250px;height:250px">
+            </lord-icon></div>
 
         <div class="container-video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/hOjXqVpqkcQ"
@@ -104,6 +117,9 @@
 
 
         <h2 class="titulo-secundario mt-5 mb-5"> PASA CON NOSOTROS ESTE GRAN DÍA</h2>
+        <div class="centrado"><lord-icon src="https://cdn.lordicon.com/zzcjjxew.json" trigger="hover"
+                colors="primary:#121331,secondary:#ffffff" style="width:250px;height:250px">
+            </lord-icon></div>
         <div class="centrado">
             <a class="boton" href="./pages/informacion.html">DESCUBRE DÓNDE Y CUÁNDO</a>
         </div>
@@ -114,6 +130,11 @@
 
         <h2 class="titulo-secundario mb-5">¿VENDRÁS?</h2>
         <h3 class="subtitulo-secundario mb-5"> POR FAVOR, AVISANOS</h3>
+        <div class="centrado">
+            <lord-icon src="https://cdn.lordicon.com/kdruzgxz.json" trigger="hover"
+                colors="primary:#121331,secondary:#ffffff" style="width:250px;height:250px">
+            </lord-icon>
+        </div>
         <div class="centrado">
             <a class="boton" href="./pages/confirmar_asistencia.html">CONFIRMAR ASISTENCIA</a>
         </div>
@@ -126,6 +147,14 @@
         <p>Queremos compartir nuestros recuerdos contigo.<br>
             Añadiremos aquí todas las fotos de nuestro gran día. <br>
             No dudes en pasarnos las que hagas.</p> <br>
+
+
+        <div class="centrado">
+            <lord-icon src="https://cdn.lordicon.com/vixtkkbk.json" trigger="hover"
+                colors="primary:#121331,secondary:#ffffff" style="width:250px;height:250px">
+            </lord-icon>
+        </div>
+
         <br>
         <div class="contenedorCarrusel">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -139,24 +168,24 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/img/separador1.jpg" class="d-block w-100" alt="...">
+                        <img src="./assets/img/separador1.jpg" class="d-block w-100" alt="imagen de amor">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>🤍</h5>
-                            <p>“Conocerte no fue algo bueno, fue lo mejor de mi vida”</p>
+                            <h4>🤍</h4>
+                            <p>“Una década y media de risas, lágrimas y momentos inolvidables”</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/separador2.jpg" class="d-block w-100" alt="...">
+                        <img src="./assets/img/separador2.jpg" class="d-block w-100" alt="imagen de amor">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>🤍</h5>
-                            <p>Andábamos sin buscarnos, pero sabiendo que andábamos para encontrarnos.</p>
+                            <h4>🤍</h4>
+                            <p>El amor verdadero se fortalece con el tiempo</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/separador3.jpg" class="d-block w-100" alt="...">
+                        <img src="./assets/img/separador3.jpg" class="d-block w-100" alt="imagen de amor">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>🤍</h5>
-                            <p>“No podemos cambiar a las personas, solo amarlas”</p>
+                            <h4>🤍</h4>
+                            <p>“Una historia de amor que sigue escribiéndose”</p>
                         </div>
                     </div>
                 </div>
@@ -182,6 +211,12 @@
             <br>
         </div>
 
+        <div class="centrado">
+            <lord-icon src="https://cdn.lordicon.com/nkmsrxys.json" trigger="hover"
+                colors="primary:#121331,secondary:#ffffff" style="width:250px;height:250px">
+            </lord-icon>
+        </div>
+
         <p>Lo importante es que vengan con ilusión, alegría
             y ganas de pasarlo bien. <br>
             Sin ustedes esto no sería igual. <br>
@@ -200,13 +235,19 @@
             <br>
         </div>
 
-        <h2 class="titulo-secundario">¿CUÁNTO CONOCES A LOS NOVIOS?</h2> <br>
+        <h4 class="titulo-secundario">¿CUÁNTO CONOCES A LOS NOVIOS?</h4> <br>
+        <div class="centrado">
+            <lord-icon src="https://cdn.lordicon.com/tvyxmjyo.json" trigger="hover"
+                colors="primary:#121331,secondary:#ffffff" style="width:250px;height:250px">
+            </lord-icon>
+        </div>
         <p>ATÉVETE A PASAR UN MOMENTO DIVERTIDO</p> <br> <br>
         <div class="centrado mb-5">
             <a class="boton" href="./pages/juego.html">JUGAR</a>
         </div>
 
     </main>
+
 
     <footer class="container-fluid bg-black">
         <div class="row d-flex justify-content-center align-items-center ">
@@ -227,9 +268,12 @@
         </div>
     </footer>
 
-
     <script src="./js/bootstrap.bundle.min.js"> </script>
-
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

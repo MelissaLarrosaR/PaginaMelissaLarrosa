@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $fuente-principal;
+    
+}
+body{
+    background-image: $fondo-principal;
+}
+main {
+    /*dejo espacio para el header*/
+    margin-top: 200px;
+
+}
+

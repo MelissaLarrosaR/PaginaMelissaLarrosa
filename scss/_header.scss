@@ -1,0 +1,69 @@
+/* HEADER */
+header {
+    z-index: 100;
+    // si queres todo el header del mismo fondo
+    //background-color: rgba(255, 255, 255, 0.952);
+    //background-image: linear-gradient(to bottom, #ffffff, #f6f6f7, #eeedef, #e6e5e6, #dedcde, #dad5da, #d7cfd6, #d4c8d1, #d4c2d0, #d3bcce, #d2b7cd, #d1b1cc);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+
+    .navbar {
+
+        /*background-color: rgba(255, 255, 255, 0.952);*/
+        .link {
+
+            text-decoration: none;
+            /*le saca el subrayado*/
+            margin: 10px;
+            /*espaciado exterior*/
+            font-size: $tamano-letra-chico;
+            /*tamaño de letra*/
+            font-weight: bold;
+            /* Aplicar negrita al texto */
+            color: $color-letra-principal;
+            /* Cambiar el color de la letra según sea necesario */
+            text-align: center;
+            /* Centrar el texto */
+        }
+
+        .logo {
+            width: 150px;
+            height: 100px;
+        }
+    }
+
+    .tira {
+        /*background-color: rgba(255, 255, 255, 0.349);*/
+        width: 100%;
+        max-height: 60px;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+
+    /* HEADER */
+    header {
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    /* HEADER */
+    header {
+        .navbar {
+            .link {
+                margin: 3px;
+                /*espaciado exterior*/
+                font-size: $tamano-letra-mas-chico;
+                /*tamaño de letra*/
+                font-weight: $negrita;
+                /* Aplicar negrita al texto */
+            }
+        }
+        .tira {
+            max-height: 25px;
+        }
+    }
+}
+

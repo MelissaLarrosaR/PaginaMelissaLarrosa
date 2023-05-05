@@ -5,23 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NOS CASAMOS M&M</title>
-    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <meta name="description"
+        content="Demuestra cuánto conoces a los novios con nuestro divertido juego de preguntas y respuestas. En nuestra página web encontrarás un emocionante test que pondrá a prueba tus conocimientos sobre la pareja. Descubre datos interesantes, anécdotas y curiosidades sobre los novios mientras te diviertes compitiendo con tus amigos. ¿Quién sabe más sobre los novios? ¡Juega ahora para averiguarlo!">
+    <meta name="keywords" content="Juego de preguntas, Preguntas divertidas, Cuestionario de boda">
+
+    <title>Juego de preguntas de la boda de Melissa y Matías | Bienvenidos a la boda de Melissa y Matías</title>
+    <!--este es el título de la página en el que se va a ver en la parte superior del navegador-->
     <link rel="stylesheet" href="../css/bootstrap.min.css"> <!--bs local-->
-    <link rel="stylesheet" href="../css/estilos.css"> <!--estilos locales-->
+    <link rel="stylesheet" href="../css/estilos.css"> <!--estilos propios-->
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/fc6b3f88c7.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
-    <header class="container-fluid bg-light fixed-top"> <!--el header es una etiqueta semántica-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <header class="container-fluid fixed-top"> <!--el header es una etiqueta semántica-->
+        <nav class="navbar navbar-expand-lg navbar-light ">
             <a class="navbar-brand" href="../index.html">
-                <img src="../assets/img/logo.png" alt="" width="60" height="48" class="d-inline-block align-text-top ">
+                <img src="../assets/img/logo.png" alt="" width="60" height="48"
+                    class="logo d-inline-block align-text-top ms-3">
 
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -43,18 +49,25 @@
                         <a class="nav-link link" href="../pages/juego.html">JUEGO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link" href="https://www.pinterest.es/lrmeli/mesa-de-regalos/">LISTA DE
+                        <a class="nav-link link" href="https://www.pinterest.es/lrmeli/mesa-de-regalos/"
+                            target="_blank">LISTA DE
                             REGALOS</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <img class="img-fluid tira" src="../assets/img/largo.arriba.jpg" alt="tira">
+        <img class="img-fluid tira" src="../assets/img/largo.arriba.png" alt="tira">
     </header>
 
-    <main class="container" style="margin-top: 140px;">
+    <main class="container">
         <div class="d-flex justify-content-center flex-column align-items-center">
-            <p class="titulo-principal text-center mb-5">¿Cuánto conoces a los novios?</p>
+            <h1 class="titulo-principal text-center mb-5">¿Cuánto conoces a los novios?</h1>
+            <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+            <div class="centrado">
+                <lord-icon src="https://cdn.lordicon.com/wutqoutb.json" trigger="hover"
+                    colors="primary:#121331,secondary:#ffffff" style="width:250px;height:250px">
+                </lord-icon>
+            </div>
             <p class="subtitulo-principal text-center mb-4">Marca la opción que creas correcta.</p>
         </div>
         <div class="row justify-content-center align-items-center">
@@ -63,52 +76,48 @@
                     <p class="subtitulo-seundario d-flex justify-content-center mb-4 ">¿Dónde se conocieron?</p>
                     <div class="d-flex justify-content-center">
                         <form>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
+                            <div class="form-check linea-check">
+                                <input class="form-check-input" type="radio" name="preg1" id="preg1op1">
+                                <label class="form-check-label ms-2" for="preg1op1">
                                     En un recital
                                 </label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault2">
-                                <label class="form-check-label" for="flexRadioDefault2">
+                            <div class="form-check linea-check">
+                                <input class="form-check-input" type="radio" name="preg1" id="preg1op2">
+                                <label class="form-check-label ms-2" for="preg1op2">
                                     Viajando
                                 </label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault3">
-                                <label class="form-check-label" for="flexRadioDefault3">
+                            <div class="form-check linea-check">
+                                <input class="form-check-input" type="radio" name="preg1" id="preg1op3">
+                                <label class="form-check-label ms-2" for="preg1op3">
                                     Estudiando
                                 </label>
                             </div>
                         </form>
                     </div>
                 </div>
+
                 <div class="border border-primary mb-5 mt-5 rounded p-3 shadow">
-                    <p class="subtitulo-seundario d-flex justify-content-center mb-4 ">¿Cual es el pasatiempo de la novia?</p>
+                    <p class="subtitulo-seundario d-flex justify-content-center mb-4 ">¿Cual es el pasatiempo de la
+                        novia?</p>
                     <div class="d-flex justify-content-center">
                         <form>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
+                            <div class="form-check linea-check">
+                                <input class="form-check-input" type="radio" name="preg2" id="preg2op1">
+                                <label class="form-check-label ms-2" for="preg2op1">
                                     Cocinar
                                 </label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault2">
-                                <label class="form-check-label" for="flexRadioDefault2">
+                            <div class="form-check linea-check">
+                                <input class="form-check-input" type="radio" name="preg2" id="preg2op2">
+                                <label class="form-check-label ms-2" for="preg2op2">
                                     Pintar
                                 </label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault3">
-                                <label class="form-check-label" for="flexRadioDefault3">
+                            <div class="form-check linea-check">
+                                <input class="form-check-input" type="radio" name="preg2" id="preg2op3">
+                                <label class="form-check-label ms-2" for="preg2op3">
                                     Ver series
                                 </label>
                             </div>
@@ -124,29 +133,28 @@
             <div class="col-sm-10 col-md-6 mb-3 mt-3 d-none d-sm-block">
                 <img class="img-fluid rounded shadow " src="../assets/img/juegodos.jpg" alt="pareja">
             </div>
+
             <div class="col-sm-12 col-md-5 justify-content-center">
                 <div class="border border-primary mb-5 mt-5 rounded p-3 shadow">
-                    <p class="subtitulo-seundario d-flex justify-content-center mb-4 ">¿Cuantos gatos tiene la pareja?</p>
+                    <p class="subtitulo-seundario d-flex justify-content-center mb-4 ">¿Cuantos gatos tiene la pareja?
+                    </p>
                     <div class="d-flex justify-content-center">
                         <form>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
+                            <div class="form-check linea-check">
+                                <input class="form-check-input" type="radio" name="preg3" id="preg3op1">
+                                <label class="form-check-label ms-2" for="preg3op1">
                                     1
                                 </label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault2">
-                                <label class="form-check-label" for="flexRadioDefault2">
-                                    3
+                            <div class="form-check linea-check">
+                                <input class="form-check-input" type="radio" name="preg3" id="preg3op2">
+                                <label class="form-check-label ms-2" for="preg3op2">
+                                    4
                                 </label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault3">
-                                <label class="form-check-label" for="flexRadioDefault3">
+                            <div class="form-check linea-check">
+                                <input class="form-check-input" type="radio" name="preg3" id="preg3op3">
+                                <label class="form-check-label ms-2" for="preg3op3">
                                     5
                                 </label>
                             </div>
@@ -154,27 +162,25 @@
                     </div>
                 </div>
                 <div class="border border-primary mb-5 mt-5 rounded p-3 shadow">
-                    <p class="subtitulo-seundario d-flex justify-content-center mb-4 ">¿Cual es el plato favorito del novio?</p>
+                    <p class="subtitulo-seundario d-flex justify-content-center mb-4 ">¿Cual es el plato favorito del
+                        novio?</p>
                     <div class="d-flex justify-content-center">
                         <form>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
+                            <div class="form-check linea-check">
+                                <input class="form-check-input" type="radio" name="preg4" id="preg4op1">
+                                <label class="form-check-label ms-2" for="preg4op1">
                                     Asado
                                 </label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault2">
-                                <label class="form-check-label" for="flexRadioDefault2">
+                            <div class="form-check linea-check">
+                                <input class="form-check-input" type="radio" name="preg4" id="preg4op2">
+                                <label class="form-check-label ms-2" for="preg4op2">
                                     Ñoquis
                                 </label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault3">
-                                <label class="form-check-label" for="flexRadioDefault3">
+                            <div class="form-check linea-check">
+                                <input class="form-check-input" type="radio" name="preg4" id="preg4op3">
+                                <label class="form-check-label ms-2" for="preg4op3">
                                     Milanesas
                                 </label>
                             </div>
@@ -189,27 +195,25 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-sm-12 col-md-5 justify-content-center">
                 <div class="border border-primary mb-5 mt-5 rounded p-3 shadow">
-                    <p class="subtitulo-seundario d-flex justify-content-center mb-4 ">¿Cuál es el segundo nombre de la novia?</p>
+                    <p class="subtitulo-seundario d-flex justify-content-center mb-4 ">¿Cuál es el segundo nombre de la
+                        novia?</p>
                     <div class="d-flex justify-content-center">
                         <form>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
+                            <div class="form-check linea-check">
+                                <input class="form-check-input" type="radio" name="preg5" id="preg5op1">
+                                <label class="form-check-label ms-2" for="preg5op1">
                                     No tiene
                                 </label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault2">
-                                <label class="form-check-label" for="flexRadioDefault2">
+                            <div class="form-check linea-check">
+                                <input class="form-check-input" type="radio" name="preg5" id="preg5op2">
+                                <label class="form-check-label ms-2" for="preg5op2">
                                     Sofía
                                 </label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault3">
-                                <label class="form-check-label" for="flexRadioDefault3">
+                            <div class="form-check linea-check">
+                                <input class="form-check-input" type="radio" name="preg5" id="preg5op3">
+                                <label class="form-check-label ms-2" for="preg5op3">
                                     Carla
                                 </label>
                             </div>
@@ -217,27 +221,25 @@
                     </div>
                 </div>
                 <div class="border border-primary mb-5 mt-5 rounded p-3 shadow">
-                    <p class="subtitulo-seundario d-flex justify-content-center mb-4 ">¿Cual es el pasatiempo favorito de los novios?</p>
+                    <p class="subtitulo-seundario d-flex justify-content-center mb-4 ">¿Cual es el pasatiempo favorito
+                        de los novios?</p>
                     <div class="d-flex justify-content-center">
                         <form>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
+                            <div class="form-check linea-check">
+                                <input class="form-check-input" type="radio" name="preg6" id="preg6op1">
+                                <label class="form-check-label ms-2" for="preg6op1">
+                                    Cine
+                                </label>
+                            </div>
+                            <div class="form-check linea-check">
+                                <input class="form-check-input" type="radio" name="preg6" id="preg6op2">
+                                <label class="form-check-label ms-2" for="preg6op2">
                                     Kayak
                                 </label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault2">
-                                <label class="form-check-label" for="flexRadioDefault2">
-                                    Cine 
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault3">
-                                <label class="form-check-label" for="flexRadioDefault3">
+                            <div class="form-check linea-check">
+                                <input class="form-check-input" type="radio" name="preg6" id="preg6op3">
+                                <label class="form-check-label ms-2" for="preg6op3">
                                     Salir de fiesta
                                 </label>
                             </div>
@@ -248,12 +250,18 @@
             <div class="col-sm-10 col-md-6 mb-3 mt-3">
                 <img class="img-fluid rounded shadow" src="../assets/img/juegotres.jpg" alt="pareja">
             </div>
+            <p class="titulo-principal" id="resultado"></p>
             <div class="col-4 d-flex justify-content-center flex-column align-items-center mb-5 mt-5">
-                <button type="button" class="boton">Enviar Respuestas</button>
+                <button type="button" class="boton" onclick="verificarRespuesta()">Enviar Respuestas</button>
+            </div>
+            <div class="centrado">
+                <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_gbgcdx6m.json"
+                    background="transparent" speed="1" style="width: 300px; height: 300px;" loop
+                    autoplay></lottie-player>
             </div>
         </div>
         <!-- Boton de enviar -->
-        
+
 
     </main>
 
@@ -268,7 +276,7 @@
                     <i class="fa-brands fa-facebook-f"></i>
                 </a>
                 <a href="https://www.pinterest.es/" target="_blank">
-                    <i class="fa-brands fa-pinterest-p" ></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
                 </a>
             </div>
         </div>
@@ -278,6 +286,8 @@
     </footer>
 
     <script src="../js/bootstrap.bundle.min.js"> </script>
+    <script src="../js/juego.js"> </script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 </body>
 

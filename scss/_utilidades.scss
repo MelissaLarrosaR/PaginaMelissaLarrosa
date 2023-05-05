@@ -1,0 +1,83 @@
+.centrado {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+}
+
+/* TITULOS, SUBTITULOS Y PARRAFOS */
+
+.titulo-principal {
+    @include titulo(80px, $negrita);
+}
+
+.subtitulo-principal {
+    @include titulo(60px, $negrita);
+}
+
+.titulo-secundario {
+    @include titulo(50px, $comun);
+}
+
+.subtitulo-secundario {
+    @include titulo(40px, $comun);
+}
+
+p {
+    font-size: $tamano-letra;
+    color: map-get($colores, letra-principal );
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* esto es un boton*/
+.boton {
+    font-size: $tamano-letra;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: map-get($colores, rosa-oscuro );
+    text-decoration: none;
+    color: white;
+    border: 5px solid map-get($colores, rosa-claro );
+    &:hover {
+        background-color: map-get($colores, rosa-claro );
+        color: map-get($colores, rosa-oscuro );
+    
+    }
+}
+
+/* MEDIA QUERYS */
+
+@media screen and (max-width:576px) {
+
+    /* Titulos  y Subtitulos */
+
+    .titulo-principal {
+        font-size: 40px;
+    }
+
+    .subtitulo-principal {
+        font-size: 30px;
+    }
+
+    .titulo-secundario {
+        font-size: 35px;
+    }
+
+    .subtitulo-secundario {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    .boton {
+        font-size: 20px;
+    }
+        
+}

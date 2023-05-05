@@ -1,0 +1,16 @@
+/* FORMULARIOS */
+
+label {
+    font-size: $tamano-letra;
+    color: $color-letra-principal;
+}
+
+/* MEDIA QUERYS */
+
+@media screen and (max-width:576px) {
+
+    label {
+        font-size: 20px;
+    }
+        
+}

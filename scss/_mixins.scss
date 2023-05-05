@@ -1,0 +1,8 @@
+@mixin titulo($tamano, $tipo){
+    color: map-get($colores, letra-principal );
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: $tamano;
+    font-weight: $tipo;
+}

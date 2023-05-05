@@ -5,23 +5,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NOS CASAMOS M&M</title>
-    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <meta name="description"
+        content="En nuestra página web, encontrarás toda la información que necesitas para disfrutar al máximo de nuestra boda. Descubre los detalles de la ceremonia y la recepción, incluyendo la hora, el lugar y la vestimenta sugerida. No te pierdas nada de este momento especial y visita nuestra página web para estar al tanto de todo.">
+    <meta name="keywords" content="Información de la boda, Fecha de la boda, Lugar de la boda, Hora de la boda, Ceremonia, Fiesta, Vestimenta">
+
+
+    <title>Información de la boda de Melissa y Matías | Bienvenidos a la boda de Melissa y Matías</title>
+    <!--este es el título de la página en el que se va a ver en la parte superior del navegador-->
     <link rel="stylesheet" href="../css/bootstrap.min.css"> <!--bs local-->
-    <link rel="stylesheet" href="../css/estilos.css"> <!--estilos locales-->
+    <link rel="stylesheet" href="../css/estilos.css"> <!--estilos propios-->
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/fc6b3f88c7.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
-    <header class="container-fluid bg-light fixed-top"> <!--el header es una etiqueta semántica-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <header class="container-fluid fixed-top"> <!--el header es una etiqueta semántica-->
+        <nav class="navbar navbar-expand-lg navbar-light ">
             <a class="navbar-brand" href="../index.html">
-                <img src="../assets/img/logo.png" alt="" width="60" height="48" class="d-inline-block align-text-top ">
+                <img src="../assets/img/logo.png" alt="" width="60" height="48"
+                    class="logo d-inline-block align-text-top ms-3">
 
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -43,18 +50,21 @@
                         <a class="nav-link link" href="../pages/juego.html">JUEGO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link" href="https://www.pinterest.es/lrmeli/mesa-de-regalos/">LISTA DE
+                        <a class="nav-link link" href="https://www.pinterest.es/lrmeli/mesa-de-regalos/"
+                            target="_blank">LISTA DE
                             REGALOS</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <img class="img-fluid tira" src="../assets/img/largo.arriba.jpg" alt="tira">
+        <img class="img-fluid tira" src="../assets/img/largo.arriba.png" alt="tira">
     </header>
 
-    <main class="container" style="margin-top: 140px;">
-        <p class="titulo-principal  mb-5">Información Útil</p>
+    <main class="container">
+        <h1 class="titulo-principal  mb-5">Información Útil</h1>
+
         <p class="titulo-secundario  mb-4">¿Cual es el codigo de vestimenta?</p>
+
         <p class="titulo-secundario  mb-5">Como te sientas cómodo/a y elegante</p>
 
         <div id="carouselExample" class="carousel slide mb-5">
@@ -85,7 +95,15 @@
             </button>
         </div>
 
+
         <p class="titulo-secundario  mb-4">Civil ღ Fiesta</p>
+
+        <div class="centrado">
+            <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+            <lord-icon src="https://cdn.lordicon.com/qduilmpq.json" trigger="hover"
+                colors="primary:#121331,secondary:#ffffff" style="width:250px;height:250px">
+            </lord-icon>
+        </div>
 
         <div class="row">
             <div class="col-sm-12 col-md-6 mb-5 mt-3">
@@ -108,8 +126,7 @@
                 <p class="mb-4 mt-3">
                     La recepcion comenzara a partir de las 21:30
                     Misión Grand Casa Colorada
-                    Cerro de San Miguel 13, Col. Lomas de Pozuelos
-                    Guanajuato, Gto.</p>
+                    Cerro de San Miguel 13, Col. Lomas de Pozuelos.</p>
                 <!-- Cargo un mapa de google maps para que puedan ubicar el lugar -->
                 <div class="d-flex justify-content-center">
                     <iframe
@@ -145,6 +162,7 @@
     </footer>
 
     <script src="../js/bootstrap.bundle.min.js"> </script>
+
 
 </body>
 

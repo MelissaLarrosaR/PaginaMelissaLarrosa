@@ -5,23 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NOS CASAMOS M&M</title>
-    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <meta name="description"
+        content="Confirma tu asistencia a nuestra celebración de una manera rápida y sencilla. En nuestra página web, encontrarás todo lo que necesitas para confirmar tu presencia, desde el formulario de confirmación hasta los detalles del evento y la ubicación del lugar. No pierdas la oportunidad de ser parte de este momento especial y confirma tu asistencia ahora mismo.">
+        <meta name="keywords" content="Confirmación de asistencia, Invitación de boda, Tarjeta de respuesta, Reservaciones">
+
+    <title>Confirmación de asistencia | Bienvenidos a la boda de Melissa y Matías</title>
+    <!--este es el título de la página en el que se va a ver en la parte superior del navegador-->
     <link rel="stylesheet" href="../css/bootstrap.min.css"> <!--bs local-->
-    <link rel="stylesheet" href="../css/estilos.css"> <!--estilos locales-->
+    <link rel="stylesheet" href="../css/estilos.css"> <!--estilos propios-->
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/fc6b3f88c7.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
-    <header class="container-fluid bg-light fixed-top"> <!--el header es una etiqueta semántica-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <header class="container-fluid fixed-top"> <!--el header es una etiqueta semántica-->
+        <nav class="navbar navbar-expand-lg navbar-light ">
             <a class="navbar-brand" href="../index.html">
-                <img src="../assets/img/logo.png" alt="" width="60" height="48" class="d-inline-block align-text-top ">
+                <img src="../assets/img/logo.png" alt="" width="60" height="48"
+                    class="logo d-inline-block align-text-top ms-3">
 
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -43,71 +49,79 @@
                         <a class="nav-link link" href="../pages/juego.html">JUEGO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link" href="https://www.pinterest.es/lrmeli/mesa-de-regalos/">LISTA DE
+                        <a class="nav-link link" href="https://www.pinterest.es/lrmeli/mesa-de-regalos/"
+                            target="_blank">LISTA DE
                             REGALOS</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <img class="img-fluid tira" src="../assets/img/largo.arriba.jpg" alt="tira">
+        <img class="img-fluid tira" src="../assets/img/largo.arriba.png" alt="tira">
     </header>
 
     <main class="container">
         <div class="row">
-            <p class="titulo-principal d-flex justify-content-center">¿Vendrás?</p>
-
+            <h1 class="titulo-principal d-flex justify-content-center">¿Vendrás?</h1>
             <div class="row mt-5">
                 <div class="col-sm-12 col-md-4 mt-auto mb-auto">
-                    <p class="titulo-secundario">Déjanos saber</p>
-                    <p>Si tienes alguna pregunta o duda por favor
-                        póngase en contacto con nosotros.<br>
-                        Y si tienes algún tipo de necesidad especial en cuanto al menú.</p>
+                    <h2>¡Anoten en sus calendarios!</h2> <br>
+                    <p>Nos casaremos el <br>
+                        02 de marzo del 2018.<br>
+                        Esperamos que puedan acompañarnos en este día <br> muy especial.
+                    </p>
                 </div>
                 <div class="col-sm-8 col-md-8 d-flex justify-content-center mb-5">
                     <video onloadedmetadata="this.muted=true" autoplay loop class="col-10 ">
-                        <source src="../video.mp4.mp4">
+                        <source src="../assets/img/video.mp4">
                     </video>
                 </div>
 
             </div>
+            <div class="centrado">
+                <lord-icon src="https://cdn.lordicon.com/pithnlch.json" trigger="hover"
+                    colors="primary:#000000,secondary:#ffffff" style="width:250px;height:250px">
+                </lord-icon>
+            </div>
 
-            <p class="subtitulo-secundario d-flex justify-content-center">CONTESTA, POR FAVOR</p>
-
+            <p class="subtitulo-secundario d-flex justify-content-center mt-5">CONTESTA, POR FAVOR</p>
             <form class="row mt-5 mb-5">
                 <div class="col-sm-12 col-md-6">
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tu nombre">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
                     </div>
 
-                    <div class="form-check">
-                        <input class="form-check-input " type="radio" name="flexRadioDefault" id="flexRadioDefault1"
+                    <div class="form-check linea-check">
+                        <input class="form-check-input " type="radio" name="check" id="acepto"
                             checked>
-                        <label class="form-check-label" for="flexRadioDefault1">
+                        <label class="form-check-label ms-2" for="acepto">
                             Acepto con gusto la invitación
                         </label>
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                        <label class="form-check-label" for="flexRadioDefault2">
+                    <div class="form-check linea-check">
+                        <input class="form-check-input" type="radio" name="check" id="declino">
+                        <label class="form-check-label ms-2" for="declino">
                             Declino con pesar la invitación
                         </label>
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-                        <label class="form-check-label " for="flexRadioDefault3">
+                    <div class="form-check linea-check">
+                        <input class="form-check-input" type="radio" name="check" id="acompañado">
+                        <label class="form-check-label ms-2" for="acompañado">
                             Acepto la invitación y vendré acompañado
                         </label>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6">
-                    <label for="exampleFormControlTextarea1" class="form-label">MENSAJE</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    <label for="mensaje" class="form-label">MENSAJE</label>
+                    <textarea class="form-control" id="mensaje" rows="5"></textarea>
                 </div>
                 <div class="col-12 text-center mt-5">
-                    <button type="submit" class="boton">Enviar</button>
+                    <p class="titulo-secundario" id="respuesta"></p>
+                    <button type="button" class="boton" onclick="mostrarRespuesta()">Enviar Respuestas</button>
                 </div>
-                
+
+
+
             </form>
 
 
@@ -129,7 +143,7 @@
                     <i class="fa-brands fa-facebook-f"></i>
                 </a>
                 <a href="https://www.pinterest.es/" target="_blank">
-                    <i class="fa-brands fa-pinterest-p" ></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
                 </a>
             </div>
         </div>
@@ -139,6 +153,8 @@
     </footer>
 
     <script src="../js/bootstrap.bundle.min.js"> </script>
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <script src="../js/confirmar.js"></script>
 
 </body>
 

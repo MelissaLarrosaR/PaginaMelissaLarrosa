@@ -5,71 +5,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NOS CASAMOS M&M</title>
-    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <meta name="description"
+        content="Revive los momentos más especiales de nuestra boda a través de nuestra galería de fotos. En nuestra página web, encontrarás una selección de las mejores imágenes de los novios. Comparte con tus amigos y familiares este día inolvidable a través de nuestra galería de fotos.">
+    <meta name="keywords" content="Álbum de fotos, Momentos especiales, Novios, Sesión de fotos">
+
+    <title>Momentos: Galeria de Fotos | Bienvenidos a la boda de Melissa y Matías</title>
+
+    <!--este es el título de la página en el que se va a ver en la parte superior del navegador-->
     <link rel="stylesheet" href="../css/bootstrap.min.css"> <!--bs local-->
-    <link rel="stylesheet" href="../css/estilos.css"> <!--estilos locales-->
+    <link rel="stylesheet" href="../css/estilos.css"> <!--estilos propios-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- para la animacion-->
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/fc6b3f88c7.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
-    <header class="container-fluid bg-light fixed-top"> <!--el header es una etiqueta semántica-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-                <a class="navbar-brand" href="../index.html">
-                    <img src="../assets/img/logo.png" alt="" width="60" height="48"
-                        class="d-inline-block align-text-top ">
-                    
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link link" href="../index.html">INICIO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link link" href="../pages/momentos.html">MOMENTOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link link" href="../pages/confirmar_asistencia.html">CONFIRMAR ASISTENCIA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link link" href="../pages/informacion.html">INFORMACION</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link link" href="../pages/juego.html">JUEGO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link link" href="https://www.pinterest.es/lrmeli/mesa-de-regalos/">LISTA DE
-                                REGALOS</a>
-                        </li>
-                    </ul>
-                </div>
+    <header class="container-fluid fixed-top"> <!--el header es una etiqueta semántica-->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../assets/img/logo.png" alt="" width="60" height="48"
+                    class="logo d-inline-block align-text-top ms-3">
+
+            </a>
+            <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link link" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="../pages/momentos.html">MOMENTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="../pages/confirmar_asistencia.html">CONFIRMAR ASISTENCIA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="../pages/informacion.html">INFORMACION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="../pages/juego.html">JUEGO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="https://www.pinterest.es/lrmeli/mesa-de-regalos/"
+                            target="_blank">LISTA DE
+                            REGALOS</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-        <img class="img-fluid tira" src="../assets/img/largo.arriba.jpg" alt="tira">
+        <img class="img-fluid tira" src="../assets/img/largo.arriba.png" alt="tira">
     </header>
 
     <main class="container">
         <div class="row">
-            <p class="titulo-principal">NUESTROS MÁS HERMOSOS RECUERDOS</p>
+            <h1 class="titulo-principal">NUESTROS MÁS HERMOSOS RECUERDOS</h1>
+        </div>
+        <div class="centrado">
+            <lord-icon src="https://cdn.lordicon.com/fgkmrslx.json" trigger="hover"
+                colors="primary:#121331,secondary:#ffffff" style="width:250px;height:250px">
+            </lord-icon>
         </div>
         <div class="row my-3">
             <p class="subtitulo-principal">DISFRUTA DE LAS FOTOS</p>
         </div>
         <div class="row my-5">
-            
-            <img src="..//assets/img/uno.jpg" class="rounded mx-auto d-block col-sm-12 col-md-4 m-2" alt="uno">
-            <img src="..//assets/img/dos.jpg" class="rounded mx-auto d-block col-sm-12 col-md-4 m-2" alt="dos">
-            <img src="..//assets/img/tres.jpg" class="rounded mx-auto d-block col-sm-12 col-md-4 m-2" alt="tres">
-            <img src="..//assets/img/cuatro.jpg" class="rounded mx-auto d-block col-sm-12 col-md-4 m-2" alt="cuatro">
-            <img src="..//assets/img/cinco.jpg" class="rounded mx-auto d-block col-sm-12 col-md-4 m-2" alt="cinco">
-            <img src="..//assets/img/seis.jpg" class="rounded mx-auto d-block col-sm-12 col-md-4 m-2" alt="seis">
+
+            <img src="..//assets/img/uno.jpg" class="rounded mx-auto d-block col-sm-12 col-md-4 m-2" alt="uno"
+                data-aos-delay="200" data-aos="fade-down" data-aos-duration="2000">
+            <img src="..//assets/img/dos.jpg" class="rounded mx-auto d-block col-sm-12 col-md-4 m-2" alt="dos"
+                data-aos-delay="600" data-aos="fade-down" data-aos-duration="2000">
+            <img src="..//assets/img/tres.jpg" class="rounded mx-auto d-block col-sm-12 col-md-4 m-2" alt="tres"
+                data-aos-delay="1000" data-aos="fade-down" data-aos-duration="2000">
+            <img src="..//assets/img/cuatro.jpg" class="rounded mx-auto d-block col-sm-12 col-md-4 m-2" alt="cuatro"
+                data-aos-delay="200" data-aos="fade-up" data-aos-duration="2000">
+            <img src="..//assets/img/cinco.jpg" class="rounded mx-auto d-block col-sm-12 col-md-4 m-2" alt="cinco"
+                data-aos-delay="600" data-aos="fade-up" data-aos-duration="2000">
+            <img src="..//assets/img/seis.jpg" class="rounded mx-auto d-block col-sm-12 col-md-4 m-2" alt="seis"
+                data-aos-delay="1000" data-aos="fade-up" data-aos-duration="2000">
 
         </div>
+        <div class="centrado">
+            <lord-icon src="https://cdn.lordicon.com/etwtznjn.json" trigger="hover"
+                colors="primary:#121331,secondary:#ffffff" style="width:250px;height:250px">
+            </lord-icon>
+        </div>
+
     </main>
 
     <footer class="container-fluid bg-black">
@@ -82,7 +107,7 @@
                     <i class="fa-brands fa-facebook-f"></i>
                 </a>
                 <a href="https://www.pinterest.es/" target="_blank">
-                    <i class="fa-brands fa-pinterest-p" ></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
                 </a>
             </div>
         </div>
@@ -92,7 +117,11 @@
     </footer>
 
     <script src="../js/bootstrap.bundle.min.js"> </script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
 </body>
 
 </html>
