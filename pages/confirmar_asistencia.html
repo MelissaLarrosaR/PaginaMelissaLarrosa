@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Confirma tu asistencia a nuestra celebración de una manera rápida y sencilla. En nuestra página web, encontrarás todo lo que necesitas para confirmar tu presencia, desde el formulario de confirmación hasta los detalles del evento y la ubicación del lugar. No pierdas la oportunidad de ser parte de este momento especial y confirma tu asistencia ahora mismo.">
-        <meta name="keywords" content="Confirmación de asistencia, Invitación de boda, Tarjeta de respuesta, Reservaciones">
+    <meta name="keywords" content="Confirmación de asistencia, Invitación de boda, Tarjeta de respuesta, Reservaciones">
 
     <title>Confirmación de asistencia | Bienvenidos a la boda de Melissa y Matías</title>
     <!--este es el título de la página en el que se va a ver en la parte superior del navegador-->
@@ -22,8 +22,8 @@
 
     <header class="container-fluid fixed-top"> <!--el header es una etiqueta semántica-->
         <nav class="navbar navbar-expand-lg navbar-light ">
-            <a class="navbar-brand" href="../index.html">
-                <img src="../assets/img/logo.png" alt="" width="60" height="48"
+            <a class="navbar-brand" href="../index.html" title="inicio">
+                <img src="../assets/img/logo .webp" alt="logo" title="imagen logo" width="60" height="48"
                     class="logo d-inline-block align-text-top ms-3">
 
             </a>
@@ -34,37 +34,37 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link link" href="../index.html">INICIO</a>
+                        <a class="nav-link link" href="../index.html" title="inicio">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link" href="../pages/momentos.html">MOMENTOS</a>
+                        <a class="nav-link link" href="./momentos.html" title="momentos">MOMENTOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link" href="../pages/confirmar_asistencia.html">CONFIRMAR ASISTENCIA</a>
+                        <a class="nav-link link" href="./confirmar_asistencia.html"
+                            title="confirmar asistencia">CONFIRMAR ASISTENCIA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link" href="../pages/informacion.html">INFORMACION</a>
+                        <a class="nav-link link" href="./informacion.html" title="informacion">INFORMACIÓN</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link" href="../pages/juego.html">JUEGO</a>
+                        <a class="nav-link link" href="./juego.html" title="juego">JUEGO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link" href="https://www.pinterest.es/lrmeli/mesa-de-regalos/"
-                            target="_blank">LISTA DE
-                            REGALOS</a>
+                        <a class="nav-link link" href="https://www.pinterest.es/lrmeli/mesa-de-regalos/" title="regalos"
+                            target="_blank">LISTA DE REGALOS</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <img class="img-fluid tira" src="../assets/img/largo.arriba.png" alt="tira">
+        <img class="img-fluid tira" src="../assets/img/largo.arriba .webp" alt="tira" title="largo tira">
     </header>
 
     <main class="container">
-        <div class="row">
+        <div class="row centrado">
             <h1 class="titulo-principal d-flex justify-content-center">¿Vendrás?</h1>
             <div class="row mt-5">
                 <div class="col-sm-12 col-md-4 mt-auto mb-auto">
-                    <h2>¡Anoten en sus calendarios!</h2> <br>
+                    <h2 class="centrado">¡Anoten en sus calendarios!</h2> <br>
                     <p>Nos casaremos el <br>
                         02 de marzo del 2018.<br>
                         Esperamos que puedan acompañarnos en este día <br> muy especial.
@@ -88,12 +88,11 @@
                 <div class="col-sm-12 col-md-6">
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                        <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
                     </div>
 
                     <div class="form-check linea-check">
-                        <input class="form-check-input " type="radio" name="check" id="acepto"
-                            checked>
+                        <input class="form-check-input " type="radio" name="check" id="acepto" checked>
                         <label class="form-check-label ms-2" for="acepto">
                             Acepto con gusto la invitación
                         </label>
@@ -119,14 +118,7 @@
                     <p class="titulo-secundario" id="respuesta"></p>
                     <button type="button" class="boton" onclick="mostrarRespuesta()">Enviar Respuestas</button>
                 </div>
-
-
-
             </form>
-
-
-
-
         </div>
     </main>
 
@@ -136,19 +128,19 @@
     <footer class="container-fluid bg-black">
         <div class="row d-flex justify-content-center align-items-center ">
             <div class="col d-flex justify-content-center align-items-center mt-3">
-                <a href="https://www.instagram.com/" target="_blank">
+                <a href="https://www.instagram.com/" target="_blank" title="instagram">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
-                <a href="https://es-la.facebook.com/" target="_blank">
+                <a href="https://es-la.facebook.com/" target="_blank" title="facebook">
                     <i class="fa-brands fa-facebook-f"></i>
                 </a>
-                <a href="https://www.pinterest.es/" target="_blank">
+                <a href="https://www.pinterest.es/" target="_blank" title="pinterest">
                     <i class="fa-brands fa-pinterest-p"></i>
                 </a>
             </div>
         </div>
         <div class="d-flex justify-content-center align-items-center">
-            <p>Todos los derechos reservados© - Melissa Larrosa Rodriguez</p>
+            <p>Todos los derechos reservados© - Melissa Larrosa Rodríguez</p>
         </div>
     </footer>
 

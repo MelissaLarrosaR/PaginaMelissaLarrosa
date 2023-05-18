@@ -2,7 +2,7 @@
 
 /* Baner de la pagina principal */
 .banner {
-    background-image: url("../assets/img/foto01.jpg");
+    background-image: url("../assets/img/foto01 .webp");
     /*imagen de fondo*/
     width: 100%;
     /*ancho 100% de la pantalla*/
@@ -45,7 +45,7 @@
 /* separador de secciones */
 
 .separador1 {
-    background-image: url("../assets/img/separador1.jpg");
+    background-image: url("../assets/img/separador1 .webp");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,22 +58,22 @@
 
 .separador2 {
     @extend .separador1;
-    background-image: url("../assets/img/separador2.jpg");
+    background-image: url("../assets/img/separador2 .webp");
 }
 
 .separador3 {
     @extend .separador1;
-    background-image: url("../assets/img/separador3.jpg");
+    background-image: url("../assets/img/separador3 .webp");
 }
 
 .separador4 {
     @extend .separador1;
-    background-image: url("../assets/img/separador4.jpg");
+    background-image: url("../assets/img/separador4 .webp");
 }
 
 .separador5 {
     @extend .separador1;
-    background-image: url("../assets/img/separador5.jpg");
+    background-image: url("../assets/img/separador5 .webp");
 }
 
 /* conteneddor de video */
@@ -129,21 +129,6 @@
 
     .separador1 {
         height: map-get($Largo, separador-celu);
-    }
-
-    .separador2 {
-        height: map-get($Largo, separador-celu);
-    }
-
-    .separador3 {
-        height: map-get($Largo, separador-celu);
-    }
-
-    .separador4 {
-        height: map-get($Largo, separador-celu);
-    }
-
-    .separador5 {
-        height: map-get($Largo, separador-celu);
+        background-attachment:unset;
     }
 }

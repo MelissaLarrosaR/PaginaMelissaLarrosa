@@ -1,6 +1,6 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Bubbler+One&family=KoHo:ital,wght@0,500;1,200&display=swap");
 /*MAPS*/
+@import url("https://fonts.googleapis.com/css2?family=Bubbler+One&family=KoHo:ital,wght@0,500;1,200&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -132,8 +132,8 @@ header .navbar .link {
   /* Centrar el texto */
 }
 header .navbar .logo {
-  width: 150px;
-  height: 100px;
+  width: 124.5px;
+  height: 106.75px;
 }
 header .tira {
   /*background-color: rgba(255, 255, 255, 0.349);*/
@@ -204,7 +204,7 @@ label {
 /* INDEX */
 /* Baner de la pagina principal */
 .banner {
-  background-image: url("../assets/img/foto01.jpg");
+  background-image: url("../assets/img/foto01 .webp");
   /*imagen de fondo*/
   width: 100%;
   /*ancho 100% de la pantalla*/
@@ -240,7 +240,7 @@ label {
 
 /* separador de secciones */
 .separador1, .separador5, .separador4, .separador3, .separador2 {
-  background-image: url("../assets/img/separador1.jpg");
+  background-image: url("../assets/img/separador1 .webp");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -252,19 +252,19 @@ label {
 }
 
 .separador2 {
-  background-image: url("../assets/img/separador2.jpg");
+  background-image: url("../assets/img/separador2 .webp");
 }
 
 .separador3 {
-  background-image: url("../assets/img/separador3.jpg");
+  background-image: url("../assets/img/separador3 .webp");
 }
 
 .separador4 {
-  background-image: url("../assets/img/separador4.jpg");
+  background-image: url("../assets/img/separador4 .webp");
 }
 
 .separador5 {
-  background-image: url("../assets/img/separador5.jpg");
+  background-image: url("../assets/img/separador5 .webp");
 }
 
 /* conteneddor de video */
@@ -311,18 +311,7 @@ label {
 @media screen and (max-width: 576px) {
   .separador1, .separador2, .separador3, .separador4, .separador5 {
     height: 200px;
-  }
-  .separador2 {
-    height: 200px;
-  }
-  .separador3 {
-    height: 200px;
-  }
-  .separador4 {
-    height: 200px;
-  }
-  .separador5 {
-    height: 200px;
+    background-attachment: unset;
   }
 }
 .linea-check {

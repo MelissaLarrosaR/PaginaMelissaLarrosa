@@ -1,6 +1,14 @@
 function mostrarRespuesta() {
     var nombre = document.getElementById("nombre").value;
     var mensaje = document.getElementById("mensaje").value;
+
+    // verifica si el campo "Nombre" está vacío
+    if (nombre.trim() === "") {
+        alert("Por favor, ingrese su nombre.");
+        return;
+    }
+
+
     var textorespuestaacepto = "Hola " + nombre + ", gracias por aceptar la invitación. Nos vemos el 02 de marzo. Saludos.";
     var textorespuestadeclino = "Hola " + nombre + ", es una pena que no puedas asistir. Gracias por avisar. Saludos.";
     var textorespuestaacompañado = "Hola " + nombre + ", gracias por aceptar la invitación. Los esperamos el 02 de marzo. Saludos.";
